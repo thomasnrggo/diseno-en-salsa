@@ -1,0 +1,54 @@
+
+/*------------- PROPIEDADES DE MODALS ------------*/
+
+@media (min-width: 992px){
+  .modal-lg {
+      width: 1000px;
+  }
+}
+
+.modal-content {
+  background-color:#222;
+  color: #777;
+
+  text-align: justify;
+}
+
+.modal-content h2 {
+  font-family: 'Gill Sans Medium';
+  font-size: 38px;
+  margin-bottom: 0;
+  letter-spacing: 0.8px;
+  text-align: left;
+}
+
+.modal-content h4 {
+  font-family: 'Gill Sans Medium';
+  font-size: 14px;
+  color: #777;
+  text-align: left;
+
+  margin-top: -4px;
+}
+
+.modal-content a {
+  color: #777;
+}
+
+.modal-header{
+  margin-top: 1%;
+  border-bottom: none;
+  padding-left: 29px;
+}
+
+.modal-header span {
+  color: #fff;
+}
+
+.modal-title {
+  line-height: normal;
+}
+
+.modal-footer {
+  border-top: solid 1px;
+}

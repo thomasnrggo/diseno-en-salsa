@@ -1,0 +1,117 @@
+
+.tienda {
+  max-height: 740px;
+}
+
+/*--------------------SLIDER--------------------*/
+
+.slide-tienda {
+  margin-top: -90px;
+  position: relative;
+  z-index: 10;
+  max-height: 740px;
+}
+
+.carousel-caption {
+  bottom: 8%;
+}
+
+.carousel-caption h2 {
+  font-size: 44px;
+  margin-bottom: 12%;
+}
+
+.texto-carrusel h2{
+  text-align: left;
+}
+
+.btn-slider{
+  background-color: #222;
+  border: none;
+  border-radius: 4px;
+
+  color: inherit;
+  font-family: 'Gill Sans Medium';
+  font-size: 20px;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+
+/*----------------SECCION DE ARTICULOS----------------*/
+
+.titulo-tienda{
+  padding: 24px;
+}
+
+.padding-centrado{
+  padding: 24px;
+}
+
+.tipo-de-productos{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.margen-articulo{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/*------------------------BTN-----------------------*/
+
+.btn-compra{
+  background-color: #00a19a;
+  border: none;
+  border-radius: 4px;
+
+  color: #fff;
+  font-family: 'Gill Sans Medium';
+  font-size: 20px;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+
+.btn-compra:hover{
+  background-color: #e5332a;
+  color: #fff;
+}
+
+/*---------------------SECCIONES--------------------*/
+
+.texto-oculto{
+
+  display: none;
+
+  position: absolute;
+  top: 45%;
+  left: 35%;
+
+  font-size: 36px;
+  font-family: 'Gill Sans Bold';
+  color: #fff;
+  text-shadow: 2px 2px 0.2;
+
+}
+
+/*--------------------RESPONSIVE--------------------*/
+
+@media(min-width:1340px){
+  .tienda {
+    max-height: 740px;
+  }
+}
+
+@media (min-width:951px) {
+  .carousel-caption {
+    bottom: 5%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 72px;
+  }
+
+}

@@ -1,0 +1,343 @@
+  /*---------- CSS EXTERNOS -----------*/
+
+@import url(menu.css);
+@import url(contacto.css);
+@import url(tienda.css);
+@import url(modals.css);
+@import url(galeria.css);
+@import url(keyframes.css);
+@import url(footer.css);
+
+/*------------- FUENTES ------------*/
+
+@font-face {
+  font-family: 'Gill Sans book';
+  src: url(../fonts/GillSansMTPro-Book.otf);
+}
+
+@font-face {
+  font-family: 'Gill Sans Medium';
+  src: url(../fonts/GillSansMTPro-Medium.otf);
+}
+
+@font-face {
+  font-family: 'Gill Sans Bold';
+  src: url(../fonts/GillSansMTPro-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Gill Sans light';
+  src: url(../fonts/GillSansMTPro-Light.otf);
+}
+
+/*------------ COLORES -----------*/
+
+.color-vol1{
+  color: #ffaf00;
+}
+
+.color-vol1{
+  color: #ffaf00;
+  border-color: #ffaf00;
+}
+.color-vol1 ul li a:hover {
+  color: #ffaf00;
+}
+
+.color-vol4{
+  color: #00a19a;
+  border-color: #00a19a;
+}
+
+.color-vol4 ul li a:hover {
+  color: #00a19a;
+}
+
+.color-vol3 {
+  color: #ea3d5f;
+  border-color: #ea3d5f;
+}
+
+.color-vol3 ul li a:hover {
+  color: #ea3d5f;
+}
+
+.color-vol2 {
+  color: #f2edcf;
+  border-color: #f2edcf;
+}
+
+.color-vol2 ul li a:hover {
+  color: #f2edcf;
+}
+
+/*------------ GENERALES -----------*/
+
+header {
+  position: relative;
+  z-index: 100;
+}
+body {
+  font-family: 'Gill Sans book';
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+h2{
+  font-family: 'Gill Sans Medium';
+  font-size: 38px;
+}
+
+p{
+  color:#fff;
+  text-align: justify;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: none;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+h4{
+  width: ;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row-modificado {
+  padding-bottom: 18px;
+}
+
+.espacido-inferior{
+  padding-bottom: 10%;
+}
+
+main {
+  margin-top: -90px;
+}
+
+.espacio-nav {
+  min-height: 90px;
+}
+
+.responsive-img img {
+  width: 100%;
+  max-height: 780px;
+}
+
+.margen-ediciones {
+  padding-top: 14%;
+}
+
+.video-promo video{
+  width: 100%;
+}
+
+.logo-presentacion {
+  margin-top: 5%;
+}
+.presentacion {
+  margin-top: 5%;
+}
+
+.seccion-ediciones {
+  margin-top: 5%;
+}
+
+.lista-participantes {
+  padding-top: 2%;
+  padding-bottom: 6%;
+  color: #777;
+  font-size: 18px;
+}
+
+.ediciones{
+  margin-top: 12px;
+
+}
+
+.lista-participantes ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.boton-jodedor {
+  margin-top: -1px;
+}
+
+.mockup {
+
+  margin-top: 10%;
+  margin-left: -5%;
+
+}
+
+.superLorem {
+  margin-top: 25%;
+  text-align: center;
+}
+/*------------ ESCALA DE GRISES -----------*/
+
+.gris-a-color{
+  filter: grayscale(100%);
+
+  -webkit-filter: grayscale(100%);
+}
+
+.gris-a-color{
+  filter: grayscale(100%);
+
+  -webkit-filter: grayscale(100%);
+
+  transition:filter 0.1s;
+
+  -webkit-transition:-webkit-filter 0.5S;
+}
+
+.gris-a-color:hover{
+
+filter: grayscale(0);
+
+-webkit-filter: grayscale(0);
+}
+
+/*------------ DE COLOR A GRIS -----------*/
+
+.color-a-gris{
+  filter: grayscale(0);
+
+  -webkit-filter: grayscale(0);
+}
+
+.color-a-gris{
+  filter: grayscale(0);
+
+  -webkit-filter: grayscale(0);
+
+  transition:filter 0.1s;
+
+  -webkit-transition:-webkit-filter 0.5s;
+}
+
+.color-a-gris:hover{
+  filter: grayscale(100%);
+
+  -webkit-filter: grayscale(100%);
+}
+
+/*------------ PAGINA PRINCPAL -----------*/
+
+.texto-presentacion{
+  margin-top: 10%;
+}
+
+.span-flecha {
+  text-decoration: none;
+  color: #fff;
+}
+
+.span-flecha:hover{
+  color: #00a19a;
+}
+
+.glyphicon-chevron-down{
+  font-size: 40px;
+}
+
+/*------------ AUDIO -----------*/
+
+/*------------ VOL1 -----------*/
+
+.nudillera {
+  margin-top: -10%;
+}
+/*------------ VOL2 -----------*/
+
+.perro-bueno {
+  margin-top: -10%;
+}
+/*------------ VOL3 -----------*/
+
+.lamano {
+
+}
+/*------------ VOL4 -----------*/
+
+.logo-vol4{
+  margin-top: 20%;
+}
+
+
+
+/*------------ FONDOS SECCIONES -----------*/
+
+.fondo-tematico {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.vol4 {
+  background-image: url('../img/background-vol4.jpg');
+}
+
+.vol3 {
+  background-image: url('../img/background.jpg');
+}
+
+
+.vol2 {
+  background-image: url('../img/background-vol2.jpg');
+}
+
+.vol1 {
+  background-image: url('../img/background-vol1-01.jpg');
+
+}
+
+.Vol3{
+  background-image: url('../img/background vol3.jpg');
+}
+.fondo-oscuro {
+  background-color: #222;
+  min-height: 780px;
+}
+
+.fondo-bebe {
+  background-image: url('../img/fondo-bebe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 700px;
+}
+
+.fondo-bebe-tienda{
+  background-image: url('../img/fondo-bebe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fondo-opaco {
+  background-color: rgba(0,0,0,0.9);
+}
+
+.fondo-footer {
+  background-color: #111;
+  min-height: 80px;
+}

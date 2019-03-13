@@ -1,0 +1,126 @@
+
+header {
+  font-family: 'Gill Sans Medium';
+}
+
+.navbar-default {
+  border: none;
+  background-color:#111;
+  margin-bottom: 0;
+}
+
+
+/*------------- LOGO NAVERGADOR ------------*/
+
+.navbar-brand {
+  height: auto;
+  min-height: 60px;
+  min-width: 120px;
+  background-image: url('../img/logo-blanco.png');
+  background-size:auto 60px;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+  margin-left: 15px;
+}
+
+.navbar-right {
+  margin-top: 25px;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  margin-top: 28px;
+}
+
+.dropdown-menu>li>a {
+  color: #fff;
+}
+
+/*------------- COLAPSADO ------------*/
+
+.navbar-collapse{
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+
+.nav>li>a {
+  text-align: right;
+  padding: 10px 22px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #222;
+}
+
+/*----------------------ESTILOS DROPDOWN----------------------*/
+
+.caret {
+  display: none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: transparent;
+  color: #000;
+}
+
+.dropdown-menu>li>a {
+  text-align: right;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    border: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*----------------------ESTILOS RESPONSIVE----------------------*/
+
+@media(min-width:769px){
+  .navbar-default {
+    border: none;
+    background-color:transparent;
+  }
+  .navbar-brand{
+    background-image: url('../img/logo-negro.png');
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .navbar-vol1 .navbar-nav>li>a{
+    color: #154b94;
+  }
+
+  .dropdown-vol1>li>a{
+    color: #154b94;
+  }
+
+  .dropdown-vol1>li>a:hover{
+    color: #000;
+    background-color: #ccc;
+  }
+
+
+        /*-------- COLOR HOVER LINKS ESCRITORIO --------*/
+
+  .navbar-default .navbar-nav>li>a:hover{
+    color: #000;
+  }
+
+}

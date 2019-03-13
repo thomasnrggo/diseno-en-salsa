@@ -1,0 +1,27 @@
+
+.img-img{
+  display: block;
+}
+
+.texto-img{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+
+  font-family: 'Gill Sans light';
+  font-size: 20px;
+  color: #fff;
+}
+
+.desvanecer{
+  opacity: 0
+}
+
+.desvanecer:hover {
+  opacity:1;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}

@@ -1,0 +1,99 @@
+footer h2{
+  font-family: 'Gill Sans Medium';
+  font-size: 20px;
+  color: #999;
+}
+
+footer p{
+  color: #777;
+  text-align: justify;
+}
+
+.menu-footer {
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #222;
+}
+
+.item-footer{
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+}
+
+.navbar-footer {
+  text-align: center;
+}
+
+.item-footer li>a {
+  color: #222;
+}
+
+.sociales{
+  padding-bottom: 20px;
+}
+
+.sociales ul {
+  padding: 0;
+  float: none;
+  text-align: center;
+}
+.sociales ul  li{
+  display: inline-block;
+  float: none;
+  color: #777;
+
+
+  padding-left: 12px;
+}
+
+.sociales ul li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.sociales ul li a:hover {
+  color: #00a19a;
+}
+
+/*----------------------SECCION FORMILARIOS----------------------*/
+
+.form-footer {
+  margin-bottom: 18px;
+}
+
+.form-footer input {
+  width: 70%;
+  margin: 0;
+
+  padding: 7px;
+
+  border: none;
+}
+
+.form-footer button {
+  width: 29%;
+  margin: 0;
+
+  padding: 7px;
+
+  border: none;
+
+}
+
+/*----------------------ESTILOS RESPONSIVE----------------------*/
+
+@media(min-width:769px){
+
+  .navbar-footer .navbar-nav>li>a{
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+        /*-------- COLOR HOVER LINKS ESCRITORIO --------*/
+
+  .navbar-footer .navbar-nav>li>a:hover{
+    color: #777;
+  }
+
+}

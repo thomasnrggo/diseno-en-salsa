@@ -1,0 +1,38 @@
+.contacto {
+  background: #111;
+  min-height: 400px;
+
+  padding: 24px;
+
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+}
+
+.titulo-contacto{
+  font-family: 'Gill Sans Medium';
+  color: #fff;
+  font-size: 20px;
+}
+
+/*----------------------FORMULARIO----------------------*/
+
+.formulario{
+  padding: 24px;
+  padding-top: 48px;
+
+  color: #fff;
+  font-family: 'Gill Sans book';
+}
+
+.form-horizontal .control-label{
+  text-align: left;;
+}
+
+.formulario input{
+  border: none;
+  border-radius: 0;
+
+  background: #333;
+}
