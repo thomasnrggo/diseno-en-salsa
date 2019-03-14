@@ -1,7 +1,9 @@
 # Website el Diseño esta en Salsa Vol. 4
 
-Pagina realizada para el evento 'El Diseño esta en Salsa Vol. 4', realizada con Bootstrap. [Demo](https://thomasnrggo.github.io/diseno-en-salsa/).
+Pagina realizada para el evento 'El Diseño esta en Salsa Vol. 4', realizada con Bootstrap. [Demo aqui.](https://thomasnrggo.github.io/diseno-en-salsa/).
 
-## Licencia
+![Discos](./.readme-static/captura.png)
+
+### Licencia
 
 MIT
